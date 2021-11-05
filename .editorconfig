@@ -1,0 +1,34 @@
+# EditorConfig 是用来抹平编辑器差异的，比如文件编码，锁进格式等
+# 参考https://linghuam.github.io/2017/12/28/editorconfig%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3/
+root=true
+
+# 对所有文件有效
+[*]
+# 文件编码utf-8
+charset = utf-8
+# 文件换行符
+end_of_line = crlf
+# 空格缩进
+indent_style = space
+# 缩进空格为2个
+indent_size = 2
+# 不保留行末的空格
+trim_trailing_whitespace = true
+#文件末尾添加一个空行
+insert_final_newline = true
+
+# ================以上是常用配置====================
+
+# 大括号不另起一行
+curly_bracket_next_line = false
+# 运算符两遍都有空格
+spaces_around_operators = true
+# 条件语句格式是 1tbs
+indent_brace_style = 1tbs
+# 在指定的字符数后强制换行。off关闭此功能
+max_line_length = off
+# 表示括号和括号之间应有空格：无空格，仅在括号内，仅在括号外或在括号的两侧 （none，inside，outside，both）
+spaces_around_brackets = inside
+# 字符串使用单引号: single、double
+# quote_type = single
+

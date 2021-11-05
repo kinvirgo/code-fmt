@@ -1,0 +1,17 @@
+# Prettier只关注代码格式，也支持自动修复，规则和ESLint不同
+# 采用.prettierrc.yaml文件原因是方便可以添加注释
+# Prettier配置优先级别 > EditorConfig配置
+
+
+# 去掉代码结尾的分号
+semi: false
+# 指定字符数后强制换行，默认是 80 列
+printWidth: 80
+# 使用单引号，默认是 false
+singleQuote: true
+# 对象中的属性使用引号
+quoteProps: "consistent"
+# 箭头函数参数使用圆括号包裹 比如 (x) => x 和 x => x 的区别
+arrowParens : "avoid"
+# 是否对 Vue 文件中 <script> 和 <style> 标签内的代码应用缩进
+vueIndentScriptAndStyle : true
