@@ -18,6 +18,6 @@ const json = {
   t: 1,
 }
 
-const j2 = { t: 1 }
+const j2 = { t: 1, m: 2 }
 
 const fn = x => x + 1

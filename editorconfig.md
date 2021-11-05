@@ -3,6 +3,9 @@
 ## 广泛支持属性
 
 ```sh
+# 是否是顶级配置文件，设置为true的时候才会停止搜索.editorconfig文件
+root : true | false
+
 # 缩进风格
 indent_style : tab | space
 
@@ -23,6 +26,9 @@ trim_trailing_whitespace : true | false
 
 # 指定的字符数之后强制换行
 max_line_length : {正整数} | off
+
+#文件末尾添加一个空行
+insert_final_newline : true | false
 ```
 
 ## 特定领域属性(特定领域建议使用Prettier配置)
@@ -30,7 +36,6 @@ max_line_length : {正整数} | off
 ```sh
 # 字符串文字的首选引用样式, single - 单引号、double-双引号 、auto - 自适应
 quote_type : single | double | auto
-
 
 # 表示大括号的左边部分是否应该在下一行
 curly_bracket_next_line : true | false

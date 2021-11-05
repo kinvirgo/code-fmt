@@ -16,19 +16,3 @@ indent_size = 2
 trim_trailing_whitespace = true
 #文件末尾添加一个空行
 insert_final_newline = true
-
-# ================以上是常用配置====================
-
-# 大括号不另起一行
-curly_bracket_next_line = false
-# 运算符两遍都有空格
-spaces_around_operators = true
-# 条件语句格式是 1tbs
-indent_brace_style = 1tbs
-# 在指定的字符数后强制换行。off关闭此功能
-max_line_length = off
-# 表示括号和括号之间应有空格：无空格，仅在括号内，仅在括号外或在括号的两侧 （none，inside，outside，both）
-spaces_around_brackets = inside
-# 字符串使用单引号: single、double
-# quote_type = single
-
