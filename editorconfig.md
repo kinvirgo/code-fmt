@@ -31,7 +31,7 @@ max_line_length : {正整数} | off
 insert_final_newline : true | false
 ```
 
-## 特定领域属性(特定领域建议使用Prettier配置)
+## 特定领域属性(特定领域建议使用 Prettier 配置)
 
 ```sh
 # 字符串文字的首选引用样式, single - 单引号、double-双引号 、auto - 自适应

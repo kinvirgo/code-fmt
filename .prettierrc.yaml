@@ -33,8 +33,7 @@ bracketSpacing: true
 bracketSameLine: true
 
 # 箭头函数参数使用圆括号包裹 比如 (x) => x 和 x => x 的区别
-arrowParens : 'avoid'
+arrowParens: 'avoid'
 
 # 是否对 Vue 文件中 <script> 和 <style> 标签内的代码应用缩进
-vueIndentScriptAndStyle : true
-
+vueIndentScriptAndStyle: true
