@@ -7,7 +7,7 @@
 ### 第一步: 安装 husky、lint-staged、prettier 依赖
 
 ```sh
-yarn add husky lint-staged prettier -D
+yarn add husky lint-staged prettier eslint -D
 ```
 
 ### 第二步: 添加 script 脚本
