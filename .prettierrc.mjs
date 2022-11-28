@@ -16,7 +16,7 @@ export default {
     semi: false,
 
     // 使用单引号，默认是 false
-    singleQuote: true,
+    singleQuote: false,
 
     // 对象属性引号
     quoteProps: 'consistent',
