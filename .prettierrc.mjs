@@ -10,7 +10,7 @@ export default {
     tabWidth: 4,
 
     // 用制表符而不是空格缩进行
-    useTabs: false,
+    useTabs: true,
 
     // 代码结尾的分号
     semi: false,
