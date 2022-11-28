@@ -1,3 +1,3 @@
 export default {
-    "./fmt/**/*.{ts,vue,scss}": ["prettier --write"],
+    "./fmt/**/*.{ts,vue,scss}": ["prettier --write"]
 };
