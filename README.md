@@ -8,6 +8,9 @@
 
 ```sh
 yarn add husky lint-staged prettier eslint -D
+
+# 初始化配置
+npx exlint --init
 ```
 
 ### 第二步: 添加 script 脚本
