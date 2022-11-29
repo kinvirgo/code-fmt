@@ -1,12 +1,14 @@
 function fmtJs() {
-	const str = 'this is a string'
-	const num = 123
+	const str = 'this is a string';
+	const num = 123;
+
+	console.log('>>>', num);
 }
 
-const num = 1 + 100
+const num = 1 + 100;
 
 if (num) {
-	console.log('>>>')
+	console.log('>>>');
 }
 
 if ((num > 1 && 1 > 2) || true) {
@@ -16,8 +18,8 @@ if ((num > 1 && 1 > 2) || true) {
 const json = {
 	num: '123',
 	t: 1,
-}
+};
 
-const j2 = { t: 1, m: 2 }
+const j2 = { t: 1, m: 2 };
 
-const fn = x => x + 1
+const fn = x => x + 1;

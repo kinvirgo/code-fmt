@@ -13,7 +13,7 @@ module.exports = {
 	useTabs: true,
 
 	// 代码结尾的分号
-	semi: false,
+	semi: true,
 
 	// 使用单引号，默认是 false
 	singleQuote: true,
