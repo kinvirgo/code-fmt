@@ -16,7 +16,7 @@ module.exports = {
 	semi: false,
 
 	// 使用单引号，默认是 false
-	singleQuote: false,
+	singleQuote: true,
 
 	// 对象属性引号
 	quoteProps: "consistent",
