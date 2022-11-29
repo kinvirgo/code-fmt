@@ -2,7 +2,7 @@
 // 采用.prettierrc.yaml文件原因是方便可以添加注释
 // Prettier配置优先级别 > EditorConfig配置
 
-export default {
+module.exports = {
     // 指定字符数后强制换行，默认是 80 列
     printWidth: 60,
 
