@@ -14,10 +14,10 @@ yarn add husky lint-staged prettier eslint -D
 
 ```json
 {
-  "scripts": {
-    "prepare": "husky install",
-    "prettier": "prettier --write ."
-  }
+    "scripts": {
+        "prepare": "husky install",
+        "prettier": "prettier --write ."
+    }
 }
 ```
 

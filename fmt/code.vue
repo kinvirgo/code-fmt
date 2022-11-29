@@ -1,22 +1,19 @@
 <template>
-  <button
-    class="prettier-class"
-    id="prettier-id"
-    @click="handleClick">
-    Click Here
-  </button>
+    <button class="prettier-class" id="prettier-id" @click="handleClick">
+        Click Here
+    </button>
 </template>
 
 <script>
-  export default {
+export default {
     data() {
-      return {}
+        return {};
     },
-  }
+};
 </script>
 
 <style lang="scss">
-  body {
+body {
     background-color: #f5f5f5;
-  }
+}
 </style>

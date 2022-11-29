@@ -16,16 +16,16 @@ export default {
     semi: false,
 
     // 使用单引号，默认是 false
-    singleQuote: false,
+    singleQuote: true,
 
     // 对象属性引号
-    quoteProps: 'consistent',
+    quoteProps: "consistent",
 
     // jsx中单引号替换双引号
     jsxSingleQuote: false,
 
     // 多行数组对象末尾逗号
-    trailingComma: 'all',
+    trailingComma: "all",
 
     // 对象文字中的括号之间打印空格
     bracketSpacing: true,
@@ -34,8 +34,8 @@ export default {
     bracketSameLine: true,
 
     // 箭头函数参数使用圆括号包裹 比如 (x) => x 和 x => x 的区别
-    arrowParens: 'avoid',
+    arrowParens: "avoid",
 
     // 是否对 Vue 文件中 <script> 和 <style> 标签内的代码应用缩进
     vueIndentScriptAndStyle: true,
-}
+};
