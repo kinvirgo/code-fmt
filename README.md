@@ -38,3 +38,9 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 npx lint-staged
 ```
+
+### eslint
+
+```
+eslint init
+```
